@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Just One Earth</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropbtn {
+  background-color: #ffffe6;
+  color: white;
+  padding: 5px;
+  font-size: 12;
+  border: yes;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+
+<body style="background-color:#ffffe6;">
+
+<div class="topnav">
+  <a href="About_Us.html">About Us</a>
+  <a href="Contact_US.html">Contact Us</a>
+  <div class="dropdown">
+  <button class="dropbtn"><a href="StudentArticles.html">Student Articles</a></button>
+	<div class="dropdown-content">
+		<a href="ArticlesAfrica.html">Articles from Africa</a>
+		<a href="ArticlesAsia.html">Articles from Asia</a>
+		<a href="ArticlesAus.html">Articles from Australia</a>
+		<a href="ArticlesE.html">Articles from Europe</a>
+		<a href="ArticlesNA.html">Articles from North America</a>
+		<a href="ArticlesSA.html">Articles from South America</a>
+		<a href="Article_Repository.html">Article Repository</a>
+		
+	</div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn"><a href="Activities.html">Activities</a></button>
+	<div class="dropdown-content">
+		<a href="ActivitiesAfrica.html">Activities In Africa</a>
+		<a href="ActivitiesAsia.html">Activities In Asia</a>
+		<a href="ActivitiesAus.html">Activities In Australia</a>
+		<a href="ActivitiesE.html">Activities In Europe</a>
+		<a href="ActivitiesNA.html">Activities In North America</a>
+		<a href="ActivitiesSA.html">Activities In South America</a>
+		
+		
+	</div>
+</div>
+</div>
+<section>
+  <img class="mySlides" src="DSCN8749.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN0158.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN6951.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN1580.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN1376.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN1877.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN8690.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN2048.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN0173.jpg" style="width:100%">
+  <img class="mySlides" src="DSCN2429.jpg" style="width:100%">
+</section>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+<h1 align="center"><br><br><br>Just One Earth<br></h1>
+
+<p align="center"><br><I>Every average Joe and Jane can become extraordinary just by doing his or her fair share to help the only planet we call home.</p>
+
+<p align="center"><br><br><B>Mission Statement:<br></p>
+
+<p align="center">We have just one planet, just one Earth we call home. And we are making it less suitable for living in, not just for ourselves but for every organism that calls Earth home. We can't just sit around blaming the ones in power. We have to show ourselves and others how climate change affects where and how we live.  This organization is about making the young learn about the place we call home, and share the knowledge gained.  This organization is also about making the like minded young get together to aid the local environmental organizations, nature centers, and parks. We inherit this planet and if we don't do what is needed we won't have a place to call home. And, until we do our bit, we won't be able question the actions of others. So, let's earn the right to ask.</p>
+
+
+</body>
+</html>
